@@ -1,0 +1,202 @@
+body {
+    background-image: url("/Users/christopherstavnes/Desktop/Basic-Portfolio/assets/images/dust_scratches.png");
+    width: auto;
+  }
+
+  
+  /*Main Boxes*/
+
+  .container {
+    background-color: #ffffff;
+    border-bottom: solid 1px #777777;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+.name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+}
+.headername { 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.875em;
+  }
+.headername nav {
+    color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+  
+  nav {
+    float: right;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    margin-top: 2%;
+    margin-right: 2%;
+  }
+  .navlinks {
+    display: inline-block;
+    font-size: medium;
+
+  }
+  
+  .box {
+    float: left;
+    width: 70%;
+    border: solid 1px #777777;
+    margin: 10px 20px 20px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    padding: 10px 15px 10px 10px;
+    
+  }
+  
+  .sidebox {
+    float: left;
+    width: auto;
+    border: solid 1px #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .projects {
+    float: left;
+    width: 50%;
+    background-color: #ffffff;
+    margin: 10px;
+    border: none;
+  }
+  
+  
+  
+  .clear {
+    clear: both;
+  }
+ 
+  h2 {
+    border-bottom: 2px solid #777777;
+    color: #4aaaa5;
+    margin: 10px;
+  }
+  h3 {  background-color: #4aaaa5;
+  width: fit-content;
+  padding: 5px;
+  color: white;
+  }
+  
+  .nav li {
+    display: inline-block;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+  .l,.ll { 
+    border-right: 2px solid #777777;
+    padding-right: 5px;
+  }
+  p { 
+    line-height: 1.25em;
+  }
+  
+  
+  
+  .sidebox img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    
+  }
+  
+  img {
+    align: left;
+    height: 100px; 
+    width: 100px; 
+  }
+  
+  img.floatLeft {
+    float: left;
+    margin: 5px;
+  }
+  
+  .foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  label {
+    display: block;
+    padding: 10px;
+  }
+  form { 
+    width: 400px;
+    height: 450px;
+    margin: auto;
+  }
+  text {
+    width: auto;
+  }
+  .textinputone,.textinputtwo {
+    width: 375px;
+  }
+  .textinput{
+    width: 375px;
+    height: 225px;
+  }
+  .button {
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 40px;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  .work {
+      padding-left: 10px;
+  }
+
+/*Media Queries*/
+@media only screen and (max-width: 768px) {
+    .box {
+        background-color: #ffffff;
+        width: 50%;
+
+    }
+    .sidebox {
+        width: 100%;
+    }
+    .work {
+        padding-left: 10px;
+        width: 25%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .box {
+        background-color: #ffffff;
+        width: 95%;
+    }
+    .sidebox {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%
+    }
+    .headername {
+        text-align: center;
+    }
+    .work {
+       float: none;
+    }
+}
